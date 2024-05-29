@@ -1,0 +1,147 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; margin: 0; padding: 0;}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.w3-UpGnrl{
+    position: fixed;
+    width: 100%;
+}
+
+
+.w3-titulo{
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.w3-top {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.w3-text{    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display:flex;
+    height: 47px;
+    align-content:center
+
+}
+.w3-titulo-principal{   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 60px;
+    background: white;
+}
+.w3-bar {width:100%;overflow:hidden; box-sizing: border-box;}
+.w3-red {color:#fff ;background-color:#000000}
+.w3-white {color:#000000 !important;background-color:#ffffff !important}
+.w3-card {box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);transition:0.3s}
+.w3-large {font-size:18px !important}
+.w3-hide-medium,.w3-hide-small {display:none !important}
+.w3-hide-large {display:none !important}
+.w3-padding-large     {padding: 12px 157px !important;}
+.w3-hover-white:hover {color:#000 !important;background-color:#fff !important}
+.w3-show {display:block !important}
+.w3-container {padding:0.01em 16px}
+.w3-center {text-align:center !important}
+.w3-margin {margin:16px !important}
+.w3-jumbo {font-size:64px !important}
+.w3-xlarge {font-size:24px !important}
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-black {color:#fff !important;background-color:#000 !important}
+.w3-padding-64 {padding-top:64px !important;padding-bottom:64px !important}
+.w3-row-padding {padding:0 8px}
+.w3-content {max-width:980px;margin:auto; display: flex;}
+.w3-twothird {width:66.66666%}
+.w3-third {width:33.33333%; font-size: 250px;}
+.w3-text-red {color:#f44336 !important}
+.w3-light-grey {color:#000 !important;background-color:#f1f1f1 !important}
+.w3-text-grey {color:#757575 !important; font-size: 16px;}
+.w3-opacity {opacity:0.75}
+.w3-image {width: 900px; display: flex;}
+.w3-info{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.w3-res{font-size: 35px !important;
+    text-align: center;
+    align-items: center;
+    position: static;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.w3-prot:hover{
+    font-weight: bold;
+    background-image: linear-gradient(to right, 
+    #036fe6, #a0b4f2, #f2cb05, #f2d377, #f2ddb6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    color: black;
+}
+.w3-deut:hover{
+    font-weight: bold;
+    background-image: linear-gradient(to right, 
+    #017ad4, #fff0e1, #90b0fe, #fec120, #a07a32);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    color: black;
+    border-bottom-left-radius: 20px;
+}
+.w3-trit:hover{
+    font-weight: bold;
+    background-image: linear-gradient(to right, 
+    #f26b76, #d0e5f2, #6de5f2, #01909b, #ff3c3f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    color: black;
+}
+.w3-acro:hover{
+    font-weight: bold;
+    background-image: linear-gradient(to right, 
+    #565757, #979797, #e2e3e3, #bcbdbd, #696869);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff; 
+    color: black;
+}
+@media (max-width:992px) {
+  .w3-hide-large {display:block !important}
+}
+@media (max-width:600px) {
+  .w3-hide-medium {display:block !important}
+  .w3-hide-small {display:block !important}
+}
