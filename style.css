@@ -6,7 +6,7 @@ body,h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", sans-serif
 }
 .fa-anchor,.fa-coffee {
-    width:300px
+    width:450px
 }
 .w3-UpGnrl{
     position: fixed;
@@ -14,6 +14,12 @@ body,h1,h2,h3,h4,h5,h6 {
 }
 .w3-img-dalt{
     width: 400px;
+}
+
+.w3-imagen{
+    display: flex;
+    position: relative;
+    right: 200px;
 }
 
 
