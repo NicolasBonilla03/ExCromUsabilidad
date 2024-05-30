@@ -155,7 +155,7 @@ body,h1,h2,h3,h4,h5,h6 {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .w3-third {
     width:33.33333%;
